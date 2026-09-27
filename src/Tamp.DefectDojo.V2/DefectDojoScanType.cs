@@ -3,7 +3,7 @@ namespace Tamp.DefectDojo.V2;
 /// <summary>
 /// Scan-format keys recognised by DefectDojo's import/reimport endpoints.
 /// The wire value (the literal <c>scan_type</c> string DD expects) is held
-/// in <see cref="ToWireValue"/> so the enum stays C#-idiomatic while we
+/// in <c>ToWireValue</c> so the enum stays C#-idiomatic while we
 /// hand the long human-readable string to DD.
 /// </summary>
 public enum DefectDojoScanType
